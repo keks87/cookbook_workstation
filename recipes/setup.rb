@@ -10,6 +10,9 @@ package 'git' do
   action:install
 end
 
+package 'nano'
+package 'vim'
+
 file '/etc/motd' do
   content 'This server is the property of Chris'
   action :create
